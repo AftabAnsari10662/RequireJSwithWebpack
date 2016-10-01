@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{161BB1BC-DE9E-4AD8-9F17-D4BC72F37A71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12883C10-CB16-4340-92EB-5847A3E312F1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RequireJS", "src\RequireJS\RequireJS.xproj", "{3145DF0A-2FB4-4763-9A8D-2CB84255FFD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3145DF0A-2FB4-4763-9A8D-2CB84255FFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3145DF0A-2FB4-4763-9A8D-2CB84255FFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3145DF0A-2FB4-4763-9A8D-2CB84255FFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3145DF0A-2FB4-4763-9A8D-2CB84255FFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3145DF0A-2FB4-4763-9A8D-2CB84255FFD1} = {161BB1BC-DE9E-4AD8-9F17-D4BC72F37A71}
+	EndGlobalSection
+EndGlobal
