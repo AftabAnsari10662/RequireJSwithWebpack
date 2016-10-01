@@ -7,11 +7,11 @@
         var self = this;
         self.sayHello = function () {
 
-            console.log(`${p1.firstName} ${p1.lastName} Says Hello!`);
+            console.log(p1.firstName + " " + p1.lastName + "Says Hello!");
         };
 
         self.sayGoodBye = function () {
-            console.log(`${p1.firstName} ${p1.lastName} says GoodBye!`);
+            console.log(p1.firstName + " " + p1.lastName + " says GoodBye!");
         };
 
     };

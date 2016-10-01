@@ -9,6 +9,6 @@
 })
 
 
-require(["app"], function (app) {
+define(["./app"], function (app) {
 
 })
