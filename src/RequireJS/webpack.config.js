@@ -2,25 +2,25 @@
 
 var path = "./wwwroot/app/";
 
-var commonPlugins = new webpack.optimize.CommonsChunkPlugin("shared.js");
+//var commonPlugins = new webpack.optimize.CommonsChunkPlugin("shared.js");
 
 
 module.exports = {
 
-    entry: {
-
-        login: path + "login.js",
-        app: path + "main.js"
-    },
-    plugins: [commonPlugins],
+    entry:  path + "app.js",
+    
+    //plugins: [commonPlugins],
     resolve: {
         alias: {
-            jquery: "../lib/jquery/dist/jquery"
+            "jquery": "../lib/jquery/dist/jquery",
+            "angular": "../lib/angular/angular",
+            "angularuiRouter": "../lib/angular-ui-router/release/angular-ui-router",
+            "underscore":"../lib/underscore/underscore"
         }
     },
     output: {
         path: "./wwwroot/app/build",
-        filename: '[name].js'
+        filename: 'bundle.js'
     },
     //plugins: [
     //  new webpack.optimize.UglifyJsPlugin({ minimize: true })

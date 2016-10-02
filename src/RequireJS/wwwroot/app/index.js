@@ -1,10 +1,15 @@
-﻿define(["jquery"], function ($) {
+﻿define(["jquery", "angular", "./login"], function ($, angular, login) {
 
     var clickHandler = function () {
 
         alert("Who clicked me? dont disturb me!")
     }
 
-    $("button").click(clickHandler);
 
+    $(function () {
+
+        $("button").click(clickHandler);
+
+    })
+   
 })

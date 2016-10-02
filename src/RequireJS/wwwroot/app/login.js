@@ -1,4 +1,9 @@
-﻿define(["./utils"], function (utils) {
+﻿define(["./utils", "underscore", "angularuiRouter"],
+    function (utils, _, angularuiRouter) {
 
-    console.log("login functionality is working!");
-})
+
+        var friends = ["Anshul", "Rohit", "Remmie", "Gaurish"];
+        var friendStartsWithR = _.find(friends, f=>f.charAt(0) == 'R');
+        console.log(friendStartsWithR);
+        console.log("login functionality is working!");
+    })

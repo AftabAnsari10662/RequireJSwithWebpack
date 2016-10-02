@@ -1,5 +1,5 @@
---temp-output:c:\users\e872928\documents\visual studio 2015\Projects\RequireJS\src\RequireJS\obj\Debug\netcoreapp1.0\
---out:c:\users\e872928\documents\visual studio 2015\Projects\RequireJS\src\RequireJS\bin\Debug\netcoreapp1.0\RequireJS.dll
+--temp-output:C:\Users\e872928\Documents\Visual Studio 2015\Projects\RequireJS\src\RequireJS\obj\Debug\netcoreapp1.0\
+--out:C:\Users\e872928\Documents\Visual Studio 2015\Projects\RequireJS\src\RequireJS\bin\Debug\netcoreapp1.0\RequireJS.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -196,7 +196,7 @@
 --reference:C:\Users\e872928\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\e872928\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\e872928\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\users\e872928\documents\visual studio 2015\Projects\RequireJS\src\RequireJS\obj\Debug\netcoreapp1.0\RequireJSdotnet-compile.deps.json",RequireJS.deps.json
-c:\users\e872928\documents\visual studio 2015\Projects\RequireJS\src\RequireJS\Program.cs
-c:\users\e872928\documents\visual studio 2015\Projects\RequireJS\src\RequireJS\Startup.cs
-c:\users\e872928\documents\visual studio 2015\Projects\RequireJS\src\RequireJS\Controllers\HomeController.cs
+--resource:"C:\Users\e872928\Documents\Visual Studio 2015\Projects\RequireJS\src\RequireJS\obj\Debug\netcoreapp1.0\RequireJSdotnet-compile.deps.json",RequireJS.deps.json
+C:\Users\e872928\Documents\Visual Studio 2015\Projects\RequireJS\src\RequireJS\Program.cs
+C:\Users\e872928\Documents\Visual Studio 2015\Projects\RequireJS\src\RequireJS\Startup.cs
+C:\Users\e872928\Documents\Visual Studio 2015\Projects\RequireJS\src\RequireJS\Controllers\HomeController.cs
